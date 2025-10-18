@@ -12,8 +12,10 @@ function Home() {
         <h1>60 % OFF</h1>
         
       </section>
-      
-  
+      {/*product cards*/}
+      <button className="flex justify-center items-end bg-orange-500 text-white italic  mt-4 rounded-lg py-2 px-2 transition-all cursor-pointer hover:scale-105 duration-300"
+      onClick={()=>alert(`You added ${product.name} to your cart!`)}>Add Cart</button>
+     
     </div>
     
   )
