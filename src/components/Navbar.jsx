@@ -7,7 +7,7 @@ function Navbar(){
             <p className='text-2xl sm:text-2xl md:text-4xl lg:text-5xl'>Winter Fashion</p>
          <Link to='/'>Home</Link>
          <Link to='/About'>About</Link>
-          <Link to='/Products'>Products</Link>
+         <Link to='/Products'>Products</Link>
          <Link to='/Contact'>Contact</Link>
         
         </nav>
