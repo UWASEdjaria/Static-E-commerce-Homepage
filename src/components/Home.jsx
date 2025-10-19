@@ -5,14 +5,14 @@ import ProductCard from '../components/ProductCard';
 
 function Home() {
   const products = [
-    { name: "Smart Watch", price: "$90", image: "watch.jpg" },
-    { name: "Wireless Headphones", price: "$75", image: "headphones.jpg" },
-    { name: "Casual T-Shirt", price: "$25", image: "t-shirt.jpg" },
-    { name: "Sneakers", price: "$60", image: "shoes.jpg" },
+    { name: "Smart Watch", price: "$90", image: "/watch.jpg" },
+    { name: "Wireless Headphones", price: "$75", image: "/headphones.jpg" },
+    { name: "Casual T-Shirt", price: "$25", image: "/t-shirt.jpg" },
+    { name: "Sneakers", price: "$60", image: "/shoes.jpg" },
     { name: "Laptop", price: "$850", image: "laptop.jpg" },
-    { name: "Home Decor Lamp", price: "$40", image: "lamp.jpg" },
-    { name: "Winter Jacket", price: "$120", image: "jacket.jpg" },
-    { name: "Smartphone", price: "$699", image: "smartphone.jpg" },
+    { name: "Home Decor Lamp", price: "$40", image: "/lamp.jpg" },
+    { name: "Winter Jacket", price: "$120", image: "/jacket.jpg" },
+    { name: "Smartphone", price: "$699", image: "/smartphone.jpg" },
   ];
 
   return (
