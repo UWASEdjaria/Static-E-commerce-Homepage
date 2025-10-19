@@ -2,12 +2,12 @@ import React from 'react';
 import ProductCard from '../components/ProductCard';
 
 function Products() {
-  const Electronics = [{ name: "Smartphone", price: "$699", image: "/phone.jpg" }];
-  const Fashion = [{ name: "Classic Dress", price: "$70", image: "/dress.jpg" }];
-  const Accessories = [{ name: "Leather Wallet", price: "$30", image: "/wallet.jpg" }];
-  const HomeDecor = [{ name: "Decorative Lamp", price: "$40", image: "/lamp.jpg" }];
-  const Beauty = [{ name: "Perfume", price: "$70", image: "/perfume.jpg" }];
-  const Kitchenware = [{ name: "Cooking Pan", price: "$50", image: "/pan.jpg" }];
+  const Electronics = [{ name: "Smartphone", price: "$699", image: "phone.jpg" }];
+  const Fashion = [{ name: "Classic Dress", price: "$70", image: "dress.jpg" }];
+  const Accessories = [{ name: "Leather Wallet", price: "$30", image: "wallet.jpg" }];
+  const HomeDecor = [{ name: "Decorative Lamp", price: "$40", image: "decorative lamp.jpg" }];
+  const Beauty = [{ name: "Perfume", price: "$70", image: "perfume.jpg" }];
+  const Kitchenware = [{ name: "Cooking Pan", price: "$50", image: "pan.jpg" }];
 
   const Products = [
     ...Electronics,

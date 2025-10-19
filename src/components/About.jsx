@@ -3,7 +3,8 @@ import React from 'react';
 function About() {
   return (
     <div>
-    <section className="flex flex-col justify-center items-center min-h-screen px-6 md:px-12 bg-gray-900">
+    <section className="flex flex-col justify-center items-center min-h-screen px-6 md:px-12 bg-gray-900"
+    style={{ backgroundImage: "url('contact.jpg')" }}>
       <h2 className="text-yellow-400 text-3xl md:text-4xl font-bold mb-6 text-center">About Us</h2>
       
       <p className="text-white text-lg md:text-xl leading-relaxed text-center max-w-3xl mb-6">
