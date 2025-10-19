@@ -1,16 +1,124 @@
-# React + Vite
+# Djaria Shop - E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Djaria Shop**, a simple e-commerce web application built with **React** and **Tailwind CSS**. This project showcases multiple product categories such as **Electronics, Fashion, Accessories, Home Decor, Beauty, and Kitchenware**, allowing users to browse products and navigate between pages like Home, Products, About, and Contact.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Features
 
-## React Compiler
+- Responsive homepage with hero section and featured products.  
+- Product listing page displaying multiple product categories.  
+- Navigation bar with links to Home, About, Products, and Contact pages.  
+- “Shop Now” button on the homepage linking to the Products page.  
+- Product cards with image, name, price, and “Add to Cart” button (alert functionality).  
+- Contact form with inputs for name, email, and message.  
+- Clean UI using Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Djaria-Shop/
+├─ public/
+│ ├─ phone.jpg
+│ ├─ watch.jpg
+│ ├─ tshirt.jpg
+│ ├─ shoes.jpg
+│ ├─ laptop.jpg
+│ ├─ lamp.jpg
+│ ├─ jacket.jpg
+│ └─ index.html
+│
+├─ src/
+│ ├─ components/
+│ │ ├─ ProductCard.jsx
+│ │ └─ Navbar.jsx
+│ ├─ pages/
+│ │ ├─ Home.jsx
+│ │ ├─ Products.jsx
+│ │ ├─ About.jsx
+│ │ └─ Contact.jsx
+│ ├─ App.jsx
+│ └─ index.js
+│
+├─ package.json
+└─ tailwind.config.js
+
+
+---
+
+## 📸 Screenshots
+
+**1. Homepage with Hero Section:**
+
+![Homepage](./screenshots/homepage.png)
+
+**2. Products Page with Product Cards:**
+
+![Products](./screenshots/products.png)
+
+**3. About Page:**
+
+![About](./screenshots/about.png)
+
+**4. Contact Page with Form:**
+
+![Contact](./screenshots/contact.png)
+
+> *Note: Replace these screenshot paths with your actual images stored in a `screenshots` folder.*
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/djaria-shop.git
+
+
+Navigate into the project folder:
+
+cd djaria-shop
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open http://localhost:3000
+ to view the project in the browser.
+
+🛠️ Technologies Used
+
+React – Frontend library for building UI components.
+
+React Router – Navigation between pages.
+
+Tailwind CSS – Styling framework for responsive UI.
+
+JavaScript (ES6+) – Application logic.
+
+📌 Notes
+
+All product images are stored in the public folder.
+
+The “Add to Cart” button currently triggers an alert; you can later replace it with real cart functionality.
+
+The website is fully responsive and works on mobile, tablet, and desktop.
+
+🔗 Links
+
+GitHub Repository: https://github.com/yourusername/djaria-shop
+
+Live Demo: (optional if deployed)
+
+📄 License
+
+This project is open source and available under the MIT License.

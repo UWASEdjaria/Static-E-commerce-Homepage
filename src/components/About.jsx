@@ -2,13 +2,28 @@ import React from 'react';
 
 function About() {
   return (
-    <section className="bg-gray-100 p-10 md:p-20 text-center">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
-      <p className="text-gray-700 max-w-2xl mx-auto text-lg md:text-xl">
+    <div>
+    <section className="flex flex-col justify-center items-center min-h-screen px-6 md:px-12 bg-gray-900">
+      <h2 className="text-yellow-400 text-3xl md:text-4xl font-bold mb-6 text-center">About Us</h2>
+      
+      <p className="text-white text-lg md:text-xl leading-relaxed text-center max-w-3xl mb-6">
         Welcome to Winter Fashion Store! We bring you the coziest jackets, scarves, boots, and winter essentials 
         to keep you warm and stylish all season. Quality and comfort are our top priorities.
       </p>
+      
+      <p className="text-white text-lg md:text-xl leading-relaxed text-center max-w-3xl">
+        Explore a wide range of products across our categories:
+        <ul className="list-disc list-inside mt-2">
+          <li>Electronics – Smartphones, Smart Watches, Laptops</li>
+          <li>Fashion – Dresses, Jackets, T-Shirts, Sneakers</li>
+          <li>Accessories – Wallets, Bags, Scarves</li>
+          <li>Home Decor – Lamps, Wall Art, Decorative Items</li>
+          <li>Beauty & Skincare – Perfumes, Creams, Accessories</li>
+          <li>Kitchenware – Cooking Pans, Utensils, Essentials</li>
+        </ul>
+      </p>
     </section>
+    </div>
   );
 }
 
