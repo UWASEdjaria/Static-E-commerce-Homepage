@@ -6,6 +6,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Products from './components/Products'
 import Contact from './components/Contact'
+import Footer from './components/Footer';
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
           <Route path="/Products"element={<Products/>}/>
           <Route path="/Contact"element={<Contact/>}/>
         </Routes>
+        <Footer />
       </Router>
     </>
   )
