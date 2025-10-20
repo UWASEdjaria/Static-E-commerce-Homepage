@@ -8,8 +8,9 @@ function About() {
       <h2 className="text-yellow-400 text-3xl md:text-4xl font-bold mb-6 text-center">About Us</h2>
       
       <p className="text-white text-lg md:text-xl leading-relaxed text-center max-w-3xl mb-6">
-        Welcome to Winter Fashion Store! We bring you the coziest jackets, scarves, boots, and winter essentials 
-        to keep you warm and stylish all season. Quality and comfort are our top priorities.
+        Welcome to our store! From trendy clothes to must-have accessories,
+         we have everything you need to look your best and feel great. Quality, style, 
+         and comfort are always our priority.
       </p>
       
       <p className="text-white text-lg md:text-xl leading-relaxed text-center max-w-3xl">
