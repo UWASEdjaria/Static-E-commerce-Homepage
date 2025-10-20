@@ -17,7 +17,7 @@ function ProductCard({ name, price, image }) {
 
         {/* Add to Cart Button */}
         <button
-          className="mt-3 w-full bg-yellow-400 hover:bg-yellow-700 text-white py-2 rounded-lg transition duration-300"
+          className="mt-3 w-full py-2 px-2 bg-yellow-400 hover:bg-yellow-700 text-white  rounded-lg transition duration-300"
           onClick={() => alert(`You added ${name} to your cart!`)}
         >
           Add to Cart
