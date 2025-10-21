@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ProductCard from '../components/ProductCard';
 
 function Products() {
@@ -17,6 +17,13 @@ function Products() {
     ...Beauty,
     ...Kitchenware
   ];
+ // State to track selected category
+ 
+
+  // Decide which products to show
+  
+
+
 
   return (
     <div className='bg-gray-900'>
